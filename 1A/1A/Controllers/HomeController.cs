@@ -26,5 +26,12 @@ namespace _1A.Controllers
 
             return View();
         }
+
+        public ActionResult MyHello()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
